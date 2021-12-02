@@ -5,11 +5,10 @@
 
 
 def main():
-    llista = list()
-    x = int(input("Introdueix el numero del que vols la llista: "))
-    for x in range(x):
-        list.append int(input("Introdueix els valors de la llista: "))
-    print(llista)
+    name = input("Introdueix el nom: ")
+    firtname = input("Introdueix el cognom: ")
+    lastname = input("Introdueix el  segon cognom: ")
+    print(lastname[:2] + firtname[:2] + name[:2])
 
 
 # Press the green button in the gutter to run the script.
